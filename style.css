@@ -1,0 +1,27 @@
+.container {
+    padding: 36px 32.32px 1618.09px 35px;
+    width: 320px;
+    height: 991px;
+    background-color: #eeeeee;
+}
+.mainheader {
+    width: 292.63px;
+    height: 88.53px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 101.38%;
+    margin-top: 12px;
+}
+.topofheader{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px
+}
+.globe{
+    margin-right: 14px;
+}
+.clock{
+    margin-right: 14px;
+}
