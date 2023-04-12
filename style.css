@@ -1,12 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;  
+}
+
 .container {
-    padding: 36px 32.32px 1618.09px 35px;
+    padding: 36px 32px 1618px 35px;
     width: 320px;
     height: 991px;
     background-color: #eeeeee;
 }
 .mainheader {
-    width: 292.63px;
-    height: 88.53px;
+    width: 293px;
+    height: 89px;
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
