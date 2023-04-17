@@ -6,31 +6,399 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;  
 }
-
 .container {
-    padding: 36px 32px 1618px 35px;
+    padding: 36px 32px 36px 35px;
     width: 320px;
-    height: 991px;
-    background-color: #eeeeee;
-}
-.mainheader {
-    width: 293px;
-    height: 89px;
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 101.38%;
-    margin-top: 12px;
+    /*height: 991px;*/
+    background: #FFFFFF;
 }
 .topofheader{
     display: flex;
     flex-direction: row;
-    margin-top: 45px
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .globe{
     margin-right: 14px;
 }
 .clock{
     margin-right: 14px;
+}
+.mainheader {
+    font-family: 'Roboto Slab';
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 292.63px;
+    height: 88.53px;
+    left: 35.47px;
+    top: 134.32px; 
+    margin-top: 13px; 
+}
+.mainheader_alt {
+    height: 29px;
+    width: 212px;
+    left: 36px;
+    top: 225px;
+    border-radius: nullpx;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.shouting_man{
+    margin: 29px 50px 39px 185px;
+    border-radius: 0px;
+}
+.center_text {
+    height: 93px;
+    width: 225px;
+    left: 38px;
+    top: 468px;
+    border-radius: 2.px;
+    background: #1E4681;
+}
+.center_text_p{
+    height: 53px;
+    width: 201px;
+    border-radius: nullpx;
+    font-family: 'Roboto Slab';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;  
+    padding: 9px 13px 7px 12px;      
+}
+.center_text_name {
+    height: 21px;
+    border-radius: nullpx;
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 7px 8px 3px 88px;
+}
+.kurs_header {
+    height: 43px;
+    width: 170px;
+    border-radius: nullpx;
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 75px 169px 8px 0px;
+    color: #000000
+}
+.kurs_p {
+    height: 174px;
+    width: 308px;
+    border-radius: nullpx;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin: 8px 31px 56px 0px;
+}
+.camera_man{
+    border-radius: 0px;
+    margin: 0px 90px 46px 70px;
+}
+.kurs_alt_line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kurs_alt_line_bold{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.kurs_alt_line1{
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 33px ;
+    margin-bottom: 34px;
+}
+.format_line_header {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;    
+    height: 43px;
+    width: 311px;
+    border-radius: nullpx;
+    color: #000000;
+    margin-top: 76px;
+}
+.format_list_bold {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E4681;
+}
+.format_line_list_normal{
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #000000;  
+    margin-bottom: 15px;
+}
+.cto_ulist_bold {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 43px;
+    width: 311px;
+    border-radius: nullpx;
+    color: #000000;
+    margin-top: 73px;
+}
+.cto_ulist_list {
+    height: 174px;
+    width: 299px;
+    border-radius: nullpx;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    padding: 10px 0px 85px 14px;
+}
+.prog_kurs_header {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 36px;
+}
+.prog_kurs_list1,
+.prog_kurs_list2,
+.prog_kurs_list3,
+.prog_kurs_list4,
+.prog_kurs_list5,
+.prog_kurs_list6,
+.prog_kurs_list7,
+.prog_kurs_list8 {
+    height: 153px;
+    width: 186px;
+    border-radius:15px;
+    -moz-box-shadow: 10px 10px 10px gray;
+    -webkit-box-shadow: 10px 10px 10px gray;
+    box-shadow: 10px 10px 10px gray;
+    margin: 24px 54px 24px 54px;
+/*display: flex;
+flex-direction: column;
+justify-content: center;
+justify-content: text-center;
+margin-top: 54px;*/
+    background-color: #FFFFFF;
+}
+.prog_kurs_bold {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+.prog_kurs_normal {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 5px;
+}
+.kurs1616 {
+    padding: 36px 32px 36px 35px;
+    height: 320px;
+    width: 319px;
+    border-radius: 0px;
+    background-color: #EFEFEF;
+    padding: 42px 32px 53px 36px;
+}
+.kurs1616_bold {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 11px;
+}
+.kurs1616_box{
+    height: 248px;
+    width: 308px;
+    border-radius:15px;
+    -moz-box-shadow: 10px 10px 10px 5px gray;
+    -webkit-box-shadow: 10px 10px 10px 5px gray;
+    box-shadow: 10px 10px 10px 5px gray;
+    background-color: #FFFFFF;
+}
+.kurs1616_p {
+    font-family: 'Roboto';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 18px 21px 10px 21px;
+}
+.kurs1616_footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.kurs1616_footer_girl{
+    margin: 5px 17px 20px 21px;
+}
+.kurs1616_footer_name {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 30px 0px 47px;
+}
+.blue_footer{
+    background: #9DC9C8;
+    height: 320px;
+    width: 320px;
+    padding: 62px 32px 0px 35px;
+}
+.blue_footer_bold {
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.blue_footer_middle{
+    font-family: 'Roboto';
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.blue_footer_middle_light {
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 22px;
+}
+.blue_footer_end{
+    display: flex;
+    justify-content: row;
+    flex-wrap: nowrap;
+    margin-top: 41px;
+}
+.blue_footer_end1_p1 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.blue_footer_end1_p2{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;  
+    margin: 7px 20px 31px 0px;  
+}
+.footer {
+    height: 251px;
+    width: 320px;
+    border-radius: 0px;
+    background: #000000;
+    padding: 23px 28px 10px 39px;
+}
+.footer1{
+    margin-bottom: 14px;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.footer21{
+    margin-right: 10px;
+}
+.footer3 {
+    margin-top: 48px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footer32{
+    margin-top: 13px;
+}
+.footer3photo{
+    margin-right: 10px;
+}
+.footer4 {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 49px;
 }
