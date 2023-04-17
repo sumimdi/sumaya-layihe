@@ -212,6 +212,11 @@ body{
     text-align: left;
     margin-bottom: 36px;
 }
+.prog_kurs_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .prog_kurs_list1,
 .prog_kurs_list2,
 .prog_kurs_list3,
@@ -222,16 +227,12 @@ body{
 .prog_kurs_list8 {
     height: 153px;
     width: 186px;
-    border-radius:15px;
+    border-radius: 15px;
     -moz-box-shadow: 10px 10px 10px gray;
     -webkit-box-shadow: 10px 10px 10px gray;
     box-shadow: 10px 10px 10px gray;
-    margin: 24px 54px 24px 54px;
-/*display: flex;
-flex-direction: column;
-justify-content: center;
-justify-content: text-center;
-margin-top: 54px;*/
+    /*margin: 24px 54px 24px 54px;*/
+    margin-bottom: 24px ;
     background-color: #FFFFFF;
 }
 .prog_kurs_bold {
